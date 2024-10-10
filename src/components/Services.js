@@ -1,24 +1,50 @@
 function Services() {
     return (
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-center">Services</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold mb-4">UI/UX Design</h3>
-              <p>The design of a user interface profoundly influences the aesthetics and usability of a digital space.</p>
+        <section className="mt-[100px] px-12">
+            <div className="w-full  bg-[#F7F8F8] rounded-[60px] p-12">
+                <h1 className="text-8xl font-bold">Services</h1>
+                <div className="grid grid-cols-3 gap-7 mt-12">
+
+                    <div className="w-full h-[450px] bg-white rounded-3xl p-7 flex flex-col justify-between hover:bg-black hover:text-white">
+                    <h1 className="text-5xl text-end">01</h1>
+                <div className="">
+                    <div className="w-[200px]">
+                        <h1 className="text-5xl mb-5 ">UI/UX Design</h1>
+
+                    </div>
+                    <p className="text-lg font-light tracking-wider">The design of a user interface profoundly influences the aesthetics, ambiance, and usability of a digital space, significantly impacting our everyday user experiences</p>
+                    </div>
+                    </div>
+
+                    <div className="w-full h-[450px] bg-white rounded-3xl p-7 flex flex-col justify-between hover:bg-black hover:text-white">
+                    <h1 className="text-5xl text-end">02</h1>
+                <div className="">
+                    <div className="w-[200px]">
+                        <h1 className="text-5xl mb-5 ">Web Design</h1>
+
+                    </div>
+                    <p className="text-lg font-light tracking-wider">Incorporating detailed design elements adds depth, interactivity, and captivating visuals to a website, enhancing the overall user experience with those essential finishing touches</p>
+                    </div>
+                    </div>
+
+                    <div className="w-full h-[450px] bg-white rounded-3xl p-7 flex flex-col justify-between hover:bg-black hover:text-white">
+                    <h1 className="text-5xl text-end">03</h1>
+                <div className="">
+                    <div className="w-[200px]">
+                        <h1 className="text-5xl mb-5 ">Web 
+Development</h1>
+
+                    </div>
+                    <p className="text-lg font-light tracking-wider">The design of a website significantly impacts its aesthetics, functionality, and user experience, profoundly shaping how users interact with it in their daily lives.</p>
+                    </div>
+                    </div>
+                   
+
+                </div>
+
             </div>
-            <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold mb-4">Web Design</h3>
-              <p>Incorporating detailed design elements adds interactivity and captivating visuals to a website.</p>
-            </div>
-            <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold mb-4">Web Development</h3>
-              <p>The design of a website impacts its aesthetics, functionality, and user experience.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+
+        </section>
     );
   }
   
